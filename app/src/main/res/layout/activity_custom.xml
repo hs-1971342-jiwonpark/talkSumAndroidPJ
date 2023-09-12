@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Custom"
+    android:background="@drawable/sky"
+    >
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_marginTop="40dp"
+        android:id="@+id/fragment4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "1"
+        android:name="com.example.aespa.BlankFragment2" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "0.6"
+        android:name="com.example.aespa.BlankFragment" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight = "0.1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:name="com.example.aespa.BlankFragment3" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "675116892209",
+    "firebase_url": "https://talksum-96e15-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "talksum-96e15",
+    "storage_bucket": "talksum-96e15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675116892209:android:1ab41e408b906cc9e41510",
+        "android_client_info": {
+          "package_name": "com.example.aespa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675116892209-7510sf89h674la12512jpcfq2cpu8q7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ-vxLf_n-mApeOlBX6q-vhNlaMgogf_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675116892209-7510sf89h674la12512jpcfq2cpu8q7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
